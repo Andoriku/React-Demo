@@ -1,0 +1,21 @@
+.question {
+  font-size: 25px;
+  border-style: none;
+  font-family: 'Source Serif Pro';
+  background-color: white;
+    text-align: left;
+}
+.questionBlock {
+  float: left;
+  margin-right: 10%;
+  margin-top: 40px;
+}
+.questionZone {
+  border-top: 2px solid lightgray;
+}
+.answer {
+  margin-left: 10%;
+  margin-right: 10%;
+  float: right;
+  font-family: 'Source Serif Pro';
+}

@@ -1,0 +1,33 @@
+.header {
+  display:block;
+  margin: auto;
+}
+#Logo {
+  display: block;
+  float:left;
+}
+.menuBlock {
+  margin-left: 20px;
+  display: flex;
+}
+.menu {
+  margin-top: 40px;
+  display: inline-block;
+}
+.menuButton {
+  display: block;
+  border-style: none;
+  background-color: white;
+  font-family: 'Montserrat';
+  letter-spacing: 3px;
+  text-align: left;
+  margin-right: 100px;
+}
+.menuButton:hover {
+  text-decoration: none;
+  color:#d8a759;
+}
+.active {
+  text-decoration: none;
+  color:#d8a759;
+}

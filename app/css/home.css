@@ -1,0 +1,108 @@
+.homeBlock {
+  margin-top: 30px;
+}
+.lady {
+  display: inline;
+  height: 500px;
+  margin-right: 20px;
+  width: auto;
+  float: left;
+}
+.text {
+  display: inline;
+  height: 500px;
+  margin-left: 20px;
+  width: auto;
+  float: right;
+}
+.links {
+  color: #498DAA;
+}
+.row {
+  height:inherit;
+  padding-right: 5%;
+  padding-left: 5%;
+  display: flex;
+}
+.textBlock {
+  display: block;
+}
+.textBlock div {
+  text-align: center;
+  padding: 50px 20px 10px 40px;
+}
+.head {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Montserrat';
+}
+.body {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'Source Serif Pro'
+}
+.button {
+  display: block;
+  text-align: center;
+  padding-top: 30px;
+  margin: auto;
+  color: #498DAA;
+  font-size: 20px;
+}
+.getStartedButton {
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+  margin: auto;
+  width: 200px;
+  height: 60px;
+  color: white;
+  background: #498DAA;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+.getStartedButton:hover {
+  color: #D8A759;
+  text-decoration: none;
+}
+.endFloat {
+  clear: both;
+}
+.footerContainer {
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.footer {
+  display: block;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: 60px;
+  font-weight: bolder;
+}
+.footerBackground{
+  background-color: #DBE8EE;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footerGetStartedButton {
+  display: block;
+  text-align: center;
+  padding-top: 22px;
+  margin: auto;
+  width: 300px;
+  height: 90px;
+  color: white;
+  background: #498DAA;
+  font-family: 'Montserrat';
+  font-size: 30px;
+  font-weight: bolder;
+
+  letter-spacing: 2px;
+}
+.footerGetStartedButton:hover {
+  color: #D8A759;
+  text-decoration: none;
+}

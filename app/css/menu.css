@@ -1,0 +1,32 @@
+.background {
+    background: #498DAA;
+
+}
+.menu {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.links {
+  color: white;
+  text-decoration: none;
+}
+.links:hover {
+  text-decoration: none;
+  color:#d8a759;
+}
+.active {
+  text-decoration: none;
+  color:#d8a759;
+}
+.break {
+  display: inline-block;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+}

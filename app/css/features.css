@@ -1,0 +1,94 @@
+.row {
+  height:inherit;
+  padding-right: 5%;
+  padding-left: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-bottom: 60px;
+  margin-top:30px;
+}
+.column {
+  height:inherit;
+  padding-right: 5%;
+  padding-left: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.images1 {
+  margin:auto;
+  width: inherit;
+}
+.features1 {
+  height:600px;
+  width:375px;
+}
+.features5 {
+  height: 700px;
+  width: auto;
+  margin: auto;
+}
+.features3 {
+  height: 700px;
+  width: 1200px;
+  margin: auto;
+}
+.features4 {
+  height: 700px;
+  width: 1200px;
+  margin: auto;
+}
+.textBlock {
+  width:600px;
+  margin:auto;
+}
+.textBlock h1{
+  font-family: 'Montserrat';
+  font-size: 50px;
+  font-weight: bolder;
+}
+.textBlock p {
+  font-size: 24px;
+}
+h1 {
+  margin: auto;
+  text-align: center;
+}
+.footerContainer {
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.footer {
+  display: block;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: 60px;
+  font-weight: bolder;
+}
+.footerBackground{
+  background-color: #DBE8EE;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footerGetStartedButton {
+  display: block;
+  text-align: center;
+  padding-top: 22px;
+  margin: auto;
+  width: 300px;
+  height: 90px;
+  color: white;
+  background: #498DAA;
+  font-family: 'Montserrat';
+  font-size: 30px;
+  font-weight: bolder;
+
+  letter-spacing: 2px;
+}
+.footerGetStartedButton:hover {
+  color: #D8A759;
+  text-decoration: none;
+}

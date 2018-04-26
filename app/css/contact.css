@@ -1,0 +1,75 @@
+.textInput {
+  display:block;
+  width:400px;
+  height:50px;
+  margin: 10px;
+  font-family: 'Source Serif Pro';
+  border-radius: 2px;
+  border-style:solid;
+  border-color:lightGray;
+}
+.cityInput {
+  display:inline-block;
+  width:265px;
+  height:50px;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: 10px;
+  font-family: 'Source Serif Pro';
+  border-radius: 2px;
+  border-style:solid;
+  border-color:lightGray;
+}
+.stateInput{
+  display:inline-block;
+  width:125px;
+  height:50px;
+  margin: 10px;
+  font-family: 'Source Serif Pro';
+  border-radius: 2px;
+  border-style:solid;
+  border-color:lightGray;
+}
+.container {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+  padding:10px;
+  flex-wrap: wrap;
+}
+.form {
+  flex: 1;
+  flex-basis: content;
+}
+.instructions {
+flex: 0 0 65%;
+margin-right: 10%;
+  margin-top: 20px;
+flex-basis: 45%;
+text-align: left;
+
+}
+.description {
+padding-right: 20%;
+font-size: 20px;
+font-family: 'Source Serif Pro';
+}
+.header {
+text-align: left;
+margin-bottom: 20px;
+font-family: 'Montserrat';
+font-size: 40px;
+}
+.submitButton {
+  background-color: #498DAA;
+  font-family: 'Montserrat';
+  width: 200px;
+  height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  color: white;
+  font-weight: bolder;
+}
